@@ -866,6 +866,7 @@
   "core.uc_notification.operations.mark_all_as_read.title": "将当前所有通知标记为已读",
   "core.uc_notification.operations.mark_all_as_read.description": "将当前所有通知标记为已读，是否继续？",
   "core.setting.title": "设置",
+  "core.system_settings.tabs.notification": "通知设置",
   "core.overview.title": "系统概览",
   "core.overview.actions.copy.toast_browser_not_supported": "当前浏览器不支持复制",
   "core.overview.header.titles.general": "基本信息",

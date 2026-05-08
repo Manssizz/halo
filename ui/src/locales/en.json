@@ -858,6 +858,7 @@
   "core.uc_notification.operations.mark_all_as_read.title": "Mark all current notifications as read",
   "core.uc_notification.operations.mark_all_as_read.description": "Mark all current messages as read. Do you want to continue?",
   "core.setting.title": "Settings",
+  "core.system_settings.tabs.notification": "Notification Settings",
   "core.overview.title": "Overview",
   "core.overview.actions.copy.toast_browser_not_supported": "The current browser does not support copying",
   "core.overview.header.titles.general": "General information",

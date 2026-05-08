@@ -117,7 +117,7 @@ function onDropdownShow() {
         {{ label }}
       </span>
       <span v-else class="mr-0.5">
-        {{ label }}：{{ selectedUser.spec.displayName }}
+        {{ label }}: {{ selectedUser.spec.displayName }}
       </span>
       <span>
         <IconArrowDown />

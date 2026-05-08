@@ -856,6 +856,7 @@
   "core.uc_notification.operations.mark_all_as_read.title": "將目前所有通知標示為已讀",
   "core.uc_notification.operations.mark_all_as_read.description": "將目前所有通知標示為已讀，是否繼續？",
   "core.setting.title": "設置",
+  "core.system_settings.tabs.notification": "通知設置",
   "core.overview.title": "系統概覽",
   "core.overview.actions.copy.toast_browser_not_supported": "當前瀏覽器不支持複製",
   "core.overview.header.titles.general": "基本資訊",

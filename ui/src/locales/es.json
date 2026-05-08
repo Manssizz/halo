@@ -676,6 +676,7 @@
   "core.identity_authentication.list.types.form": "Método de autenticación básica",
   "core.identity_authentication.list.types.oauth2": "Método de autenticación de terceros",
   "core.setting.title": "Configuraciones",
+  "core.system_settings.tabs.notification": "Configuración de notificaciones",
   "core.overview.title": "Visión general",
   "core.overview.actions.copy.toast_browser_not_supported": "El navegador actual no admite la función de copiado",
   "core.overview.header.titles.general": "Información general",

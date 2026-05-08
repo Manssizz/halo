@@ -40,7 +40,7 @@ export function useThemeLifeCycle(
     const condition = theme.value.status.conditions?.[0];
 
     if (condition) {
-      return [condition.type, condition.message].join("：");
+      return [condition.type, condition.message].join(": ");
     }
   };
 

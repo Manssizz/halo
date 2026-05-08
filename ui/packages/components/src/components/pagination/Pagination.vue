@@ -19,8 +19,8 @@ const props = withDefaults(
     total: 0,
     sizeOptions: () => [10],
     showTotal: true,
-    pageLabel: "页",
-    sizeLabel: "条 / 页",
+    pageLabel: "page",
+    sizeLabel: "items / page",
     totalLabel: undefined,
   }
 );
@@ -41,7 +41,7 @@ const totalLabelText = computed(() => {
   if (props.totalLabel) {
     return props.totalLabel;
   }
-  return `共 ${props.total} 项数据`;
+  return `Total ${props.total} items`;
 });
 
 const onPageChange = (event: Event) => {

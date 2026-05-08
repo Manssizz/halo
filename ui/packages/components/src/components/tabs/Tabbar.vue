@@ -191,14 +191,14 @@ onUnmounted(() => {
       ref="indicatorRef"
       :class="['indicator', 'left', arrowShow.left ? 'visible' : 'invisible']"
     >
-      <div title="向前" class="arrow-left" @click="handleClickArrow(true)">
+      <div title="Previous" class="arrow-left" @click="handleClickArrow(true)">
         <IconArrowLeft />
       </div>
     </div>
     <div
       :class="['indicator', 'right', arrowShow.right ? 'visible' : 'invisible']"
     >
-      <div title="向后" class="arrow-right" @click="handleClickArrow(false)">
+      <div title="Next" class="arrow-right" @click="handleClickArrow(false)">
         <IconArrowRight />
       </div>
     </div>

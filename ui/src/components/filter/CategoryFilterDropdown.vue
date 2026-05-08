@@ -94,7 +94,7 @@ const selectedCategory = computed(() => {
         {{ label }}
       </span>
       <span v-else class="mr-0.5">
-        {{ label }}：{{ selectedCategory.spec.displayName }}
+        {{ label }}: {{ selectedCategory.spec.displayName }}
       </span>
       <span>
         <IconArrowDown />

@@ -13,12 +13,12 @@ import { VModal } from "../modal";
 
 const props = withDefaults(defineProps<DialogProps>(), {
   type: "info",
-  title: "提示",
+  title: "Tip",
   description: "",
-  confirmText: "确定",
+  confirmText: "Confirm",
   confirmType: "primary",
   showCancel: true,
-  cancelText: "取消",
+  cancelText: "Cancel",
   visible: false,
   onConfirm: () => {
     return;

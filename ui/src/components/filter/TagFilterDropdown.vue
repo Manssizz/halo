@@ -93,7 +93,7 @@ const selectedTag = computed(() => {
         {{ label }}
       </span>
       <span v-else class="mr-0.5">
-        {{ label }}：{{ selectedTag.spec.displayName }}
+        {{ label }}: {{ selectedTag.spec.displayName }}
       </span>
       <span>
         <IconArrowDown />

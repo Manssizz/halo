@@ -261,7 +261,7 @@ const handleUpdateRole = async () => {
                                 .map((item: string) =>
                                   $t(`core.rbac.${item}`, item as string)
                                 )
-                                .join("，"),
+                                .join(", "),
                             })
                           }}
                         </span>
