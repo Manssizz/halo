@@ -100,8 +100,8 @@ jobs:
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
-          F2C_USERNAME: ${{ secrets.F2C_REGISTRY_USER }}
-          F2C_TOKEN: ${{ secrets.F2C_REGISTRY_TOKEN }}
+          # F2C_USERNAME: ${{ secrets.F2C_REGISTRY_USER }}
+          # F2C_TOKEN: ${{ secrets.F2C_REGISTRY_TOKEN }}
           GHCR_USERNAME: ${{ github.repository_owner }}
           GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./gradlew publishToAllRegistries -Prelease=${{ github.event_name == 'release' && 'true' || 'false' }}
