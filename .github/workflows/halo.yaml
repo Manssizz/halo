@@ -145,7 +145,7 @@ jobs:
       - name: Docker Build
         uses: docker/build-push-action@v7
         with:
-          tags: ghcr.io/manssizz/halo-dev:main
+          tags: ghcr.io/manssizz/halo:en
           push: false
           context: .
       - name: E2E Testing
