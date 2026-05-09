@@ -34,7 +34,7 @@ jobs:
       - name: Check Halo
         run: ./gradlew clean check --configuration-cache --configuration-cache-problems=warn
       - name: Upload coverage reports to Codecov
-        if: github.repository == 'halo-dev/halo'
+        if: github.repository == 'manssizz/halo'
         uses: codecov/codecov-action@v6
 
   build:
@@ -56,7 +56,7 @@ jobs:
       - name: Build Halo
         run: ./gradlew clean downloadPluginPresets build -x check --configuration-cache --configuration-cache-problems=warn
       - name: Upload Artifacts
-        if: github.repository == 'halo-dev/halo'
+        if: github.repository == 'manssizz/halo'
         uses: actions/upload-artifact@v6
         with:
           name: halo-artifacts
@@ -143,7 +143,7 @@ jobs:
       - name: Docker Build
         uses: docker/build-push-action@v7
         with:
-          tags: ghcr.io/halo-dev/halo-dev:main
+          tags: ghcr.io/manssizz/halo-dev:main
           push: false
           context: .
       - name: E2E Testing
